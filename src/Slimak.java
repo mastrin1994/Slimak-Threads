@@ -56,5 +56,6 @@ public class Slimak
 		Menu.Trawa[wiersz][kolumna].kolor = Menu.Trawa[wiersz][kolumna].kolor - 100;	// obiekt klasy Trawa utworzony w klasie Menu, zmienia jego kolor na ciemniejszy
 		if(Menu.Trawa[wiersz][kolumna].kolor <= 0)		// jesli kolor spadnie ponizej zera to resetuje jego wartosc na zero
 			Menu.Trawa[wiersz][kolumna].kolor = 0;
+		//System.out.println("Slimak je trawe: [" + wiersz + "][" + kolumna + "].");
 	}
 }
